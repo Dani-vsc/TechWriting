@@ -38,5 +38,5 @@ Questa è una tabella:
 
 Questo è un link:
 
-\[An Internal Link](/guides/content/editing-an-existing-page)
+\[Google](https://google.com)
 
