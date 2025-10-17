@@ -31,7 +31,7 @@ Questa è una tabella:
 
 
 | Nome | Cognome | Mail |
-
+| ------ | ----- | ------ | 
 | Daniele | Marinelli | daniele.marinelli@itstechtalentfactory.it |
 
 
