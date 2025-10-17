@@ -38,5 +38,5 @@ Questa è una tabella:
 
 Questo è un link:
 
-\[Google](https://google.com)
+[Google](https://google.com)
 
