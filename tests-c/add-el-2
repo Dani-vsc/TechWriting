@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void main(){
+
+    int v[100], n=0, x, i=1, j;
+
+    printf("Inserire numeri interi per popolare array (0 per terminare):\n");
+    scanf("%d", &x);
+    while (x!=0)
+    {
+        v[n++]=x;
+        scanf("%d", &x);
+    }
+
+    while (i<n)
+    {
+        x = v[i];
+        j=i-1;
+        while (j>=0 && v[j]>x)
+        {
+            v[j+1] = v[j];
+            j--;
+        }
+
+        v[j+1] = x;
+        i++;
+        
+    }
+    
+
+
+    for (i = 0; i < n; i++)
+    {
+        printf("%d ", v[i]);
+    }
+}
